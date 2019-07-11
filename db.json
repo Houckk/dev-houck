@@ -1,0 +1,17 @@
+{
+  "Response1": {
+    "statusText": "OK",
+    "body": "This is the body",
+    "body.message": "body message error shouldnt exist bc status OK"
+  },
+  "Response2": {
+    "statusText": "200",
+    "body": "This is the body",
+    "body.message": "body message error shouldnt exist bc status 200"
+  },
+  "Response3": {
+    "statusText": "404",
+    "body": "This is the body",
+    "body.message": "body message error should exist bc status 404"
+  }
+}
